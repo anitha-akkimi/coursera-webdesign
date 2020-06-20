@@ -1,9 +1,61 @@
 <!DOCTYPE html>
 <html>
+<style>
+	body {
+		magin:20px;
+		width:1000px;
+		background-color: grey;
+
+	}
+	#box1 {
+		background-color: #a593c2;
+		padding: 20px;
+		border: 2px solid black;
+		margin: 30px 40px 30px 40px;
+		width: 30%;
+
+	}
+	#box2 {
+		background-color: pink;
+		padding: 20px;
+		border: 2px solid black;
+		margin: 30px 60px 30px 60px;
+		width: 80%;
+		overflow: auto;
+
+	}
+	#content{
+		background-color: green;
+		overflow: auto; 
+		width: 100;
+	}
+	.abc{
+		font-family: monospace;
+		background-color: blue;
+	}
+	p.abc{
+		font-weight: bold;
+		font-style: italic;
+	}
+	div>h2{
+		background-color: yellow;
+	}
+	div p{
+		color:#000080;
+	}
+</style>
 <head>
 	<title>Hello coursera!</title>
 </head>
 <body>
-<h1>Hi i am anitha, welcome to coursera</h1>
+<h1 class="abc">hi i am anitha </h1>
+<h2>come with me!</h2>
+<div id="box2">
+	<h2>my story</h2>
+<p id="box1" id="content"> &quot my name is anitha i am studying enginnering second year. I like reading books and I want to be engineer &quot i like to learn about webdesign in detail i want be a web developer in near future i want write my own blogs and i have an interest in didital marketing to be a frrelance in the world.
+</p>
+<p id="box1" class="abc">&quot my name is anitha i am studying enginnering second year. I like reading books and I want to be engineer &quot i like to learn about webdesign in detail i want be a web developer in near future i want write my own blogs and i have an interest in didital marketing to be a frrelance in the world.
+</p>
+</div>
 </body>
 </html>
