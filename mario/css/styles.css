@@ -1,0 +1,90 @@
+<style>
+* {
+	box-sizing: border-box;
+}
+body {
+	/*background-color: #dfd4c3;*/
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url('mario.jpg');
+	background-size: 50% auto;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.row{
+	width: 100%;
+}
+/*p{
+	border: 2px solid black;
+	padding: 20px 10px 10px 10px;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+ h1{
+	font-weight: bold;
+	margin-bottom:30px;
+	margin-left: 10px;
+	text-align: left;
+	color: #00008b;
+
+}
+
+#box {
+	background-color: #a593c2;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 30%;
+	border: 2px solid black;
+	padding: 0px 10px 10px 0px;
+	border-radius: 10px;
+	
+}
+#content{
+	width: 100;
+	overflow: auto;
+}
+#box #box1 {
+	width: 110px;
+	height: 30px;
+	margin: 0px;
+	position: relative;
+	left: 100%;
+	top: 0%;
+	transform: translateX(-100%);
+	border: 1px solid black;
+	background-color: orange;
+	font-weight: bold;
+	color: #00008b;
+	font-size: 14px;
+}
+h6{
+	border: 1px solid black;
+	background-color: pink;
+	width: 70px;
+	height: 30px;
+}
+@media(min-width: 992px){
+	h1{
+		text-align: center;
+	}
+	#box{
+		width: 30%;
+		float: left;
+	}
+	#box #box1{
+		position: relative;
+	}
+		
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+	#box{
+		width: 30%;
+		float: left;
+		margin-right: 10px;
+	}
+	#box #box1{
+		position: relative;
+	}
+}
+</style>
