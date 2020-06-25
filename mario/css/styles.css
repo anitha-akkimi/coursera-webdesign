@@ -7,7 +7,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	background-image: url('mario.jpg');
-	background-size: 50% auto;
+	background-size: 10% 10%;
 	background-repeat: no-repeat;
 	background-position: top center;
 }
@@ -78,6 +78,9 @@ h6{
 
 }
 @media(min-width: 768px) and (max-width: 991px){
+	h1{
+		text-align: center;
+	}
 	#box{
 		width: 30%;
 		float: left;
